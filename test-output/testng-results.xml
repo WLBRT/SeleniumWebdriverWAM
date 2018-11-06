@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17111" started-at="2018-11-05T23:09:15Z" finished-at="2018-11-05T23:09:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17111" started-at="2018-11-05T23:09:15Z" finished-at="2018-11-05T23:09:32Z">
+      <class name="wam.PageFatory.CP.CP_001">
+        <test-method status="PASS" signature="preCondiciones()[pri:0, instance:wam.PageFatory.CP.CP_001@5ed828d]" name="preCondiciones" is-config="true" duration-ms="13401" started-at="2018-11-05T23:09:15Z" finished-at="2018-11-05T23:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondiciones -->
+        <test-method status="PASS" signature="CP()[pri:0, instance:wam.PageFatory.CP.CP_001@5ed828d]" name="CP" duration-ms="1481" started-at="2018-11-05T23:09:28Z" finished-at="2018-11-05T23:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CP -->
+        <test-method status="PASS" signature="postCondiciones()[pri:0, instance:wam.PageFatory.CP.CP_001@5ed828d]" name="postCondiciones" is-config="true" duration-ms="2203" started-at="2018-11-05T23:09:30Z" finished-at="2018-11-05T23:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondiciones -->
+      </class> <!-- wam.PageFatory.CP.CP_001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
