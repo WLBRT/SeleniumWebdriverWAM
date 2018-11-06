@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17111" started-at="2018-11-05T23:09:15Z" finished-at="2018-11-05T23:09:32Z">
+  <suite name="Default suite" duration-ms="18038" started-at="2018-11-06T22:22:52Z" finished-at="2018-11-06T22:23:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17111" started-at="2018-11-05T23:09:15Z" finished-at="2018-11-05T23:09:32Z">
+    <test name="Default test" duration-ms="18038" started-at="2018-11-06T22:22:52Z" finished-at="2018-11-06T22:23:10Z">
       <class name="wam.PageFatory.CP.CP_001">
-        <test-method status="PASS" signature="preCondiciones()[pri:0, instance:wam.PageFatory.CP.CP_001@5ed828d]" name="preCondiciones" is-config="true" duration-ms="13401" started-at="2018-11-05T23:09:15Z" finished-at="2018-11-05T23:09:28Z">
+        <test-method status="PASS" signature="preCondiciones()[pri:0, instance:wam.PageFatory.CP.CP_001@1a3869f4]" name="preCondiciones" is-config="true" duration-ms="14082" started-at="2018-11-06T22:22:52Z" finished-at="2018-11-06T22:23:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondiciones -->
-        <test-method status="PASS" signature="CP()[pri:0, instance:wam.PageFatory.CP.CP_001@5ed828d]" name="CP" duration-ms="1481" started-at="2018-11-05T23:09:28Z" finished-at="2018-11-05T23:09:30Z">
+        <test-method status="PASS" signature="CP()[pri:0, instance:wam.PageFatory.CP.CP_001@1a3869f4]" name="CP" duration-ms="1943" started-at="2018-11-06T22:23:06Z" finished-at="2018-11-06T22:23:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CP -->
-        <test-method status="PASS" signature="postCondiciones()[pri:0, instance:wam.PageFatory.CP.CP_001@5ed828d]" name="postCondiciones" is-config="true" duration-ms="2203" started-at="2018-11-05T23:09:30Z" finished-at="2018-11-05T23:09:32Z">
+        <test-method status="PASS" signature="postCondiciones()[pri:0, instance:wam.PageFatory.CP.CP_001@1a3869f4]" name="postCondiciones" is-config="true" duration-ms="1970" started-at="2018-11-06T22:23:08Z" finished-at="2018-11-06T22:23:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondiciones -->

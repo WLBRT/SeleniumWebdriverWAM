@@ -9,7 +9,7 @@ import wam.PageFactory.ReadProperties.ReadFileData;
 import wam.PageFactory.pageFactory.SuperClasePF;
 
 public class CP_001 extends SuperClasePF {
-
+	
 	@Test
 	public void CP() {
 		IniciarSesionPag login = new IniciarSesionPag(d);
@@ -17,7 +17,6 @@ public class CP_001 extends SuperClasePF {
 		login.loginTo(ReadFileData.Leer("username"), ReadFileData.Leer("password"));
 		login.cerrarSesion();
 		d.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-
 	}
 
 }

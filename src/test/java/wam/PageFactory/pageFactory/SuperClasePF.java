@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -16,14 +17,14 @@ public class SuperClasePF{
 	
 	 @BeforeClass
 	 public static void preCondiciones(){
-		 /* Descarga GeockDriver para utilizar la version resientes de FireFox, https://github.com/mozilla/geckodriver/releases
-		  * Si prefieres utilizar version anterior de FireForx(V 33) tienes que comentar esta linea 24 y bajar las versiones de Selenium.
-		  * Pero yo te recomiento utilizarlo con el controlador GeckoDriver
-		  * Copia el controladro en C:/geckodriver/
-		  * */
-		 System.setProperty("webdriver.gecko.driver", "C:/geckodriver/geckodriver.exe"); 
+		 
+		 DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+		 capabilities.setCapability("marionette", true);
+//		 System.setProperty("webdriver.gecko.driver", "C:/geckodriver/geckodriver.exe"); 
+//		 System.setProperty("webdriver.firefox.marionetter", "C:/geckodriver/geckodriver.exe");
 		 d = new FirefoxDriver();
-		 d.get(ReadFileData.Leer("url"));
+//		 d = new ChromeDriver();
+		 d.get(ReadFileData.Leer("url"));  
 //		 d.get("http://demo.guru99.com/V4/");
 		 d.manage().window().maximize();
 		 d.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
