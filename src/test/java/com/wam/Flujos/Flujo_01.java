@@ -50,7 +50,7 @@ public class Flujo_01 extends SuperClaseIntranetSoa {
 //	@Test
 //	public void ActSOA() {
 //		ActividadCMC login = new ActividadCMC(d);
-//		login.LoginActividades("wilbert.alejandro", "ieo0Pk84");
+//		login.LoginActividades("-", "-");
 //		d.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 //	}
 }
